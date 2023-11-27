@@ -2,7 +2,7 @@ body{
   margin: 0;
   color: white;
   font-size: 30px;
-  width: 30%;
+ 
 }
 canvas{
   position: fixed;
@@ -11,4 +11,5 @@ canvas{
 }
 main{
   position: absolute;
+   width: 30%;
 }
