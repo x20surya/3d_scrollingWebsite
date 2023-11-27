@@ -11,5 +11,10 @@ canvas{
 }
 main{
   position: absolute;
-   width: 30%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 250px;
+  
+  
 }
