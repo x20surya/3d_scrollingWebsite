@@ -15,6 +15,28 @@ camera.position.setZ(0);
 camera.position.setX(0);
 camera.position.setY(0);
 
+loader.load( 'monkey.glb', function ( gltf ) {
+
+	scene.add( gltf.scene );
+
+}, undefined, function ( error ) {
+
+	console.error( error );
+
+} );
+
+loader.load( 'spaceShip.glb', function ( gltf ) {
+
+  gltf.scene.position.z = 7;
+
+	scene.add( gltf.scene );
+
+}, undefined, function ( error ) {
+
+	console.error( error );
+
+} );
+
 
 
 
