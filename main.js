@@ -17,7 +17,7 @@ camera.position.setZ(0);
 camera.position.setX(0);
 camera.position.setY(0);
 
-loader.load( './monkey.glb', function ( gltf ) {
+loader.load( '3d-models/monkey.glb', function ( gltf ) {
 
 	scene.add( gltf.scene );
 
@@ -27,7 +27,7 @@ loader.load( './monkey.glb', function ( gltf ) {
 
 } );
 
-loader.load( './spaceShip.glb', function ( gltf ) {
+loader.load( '3d-models/spaceShip.glb', function ( gltf ) {
 
   gltf.scene.position.z = 7;
 
